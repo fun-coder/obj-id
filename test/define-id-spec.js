@@ -1,4 +1,5 @@
-import objId, {key} from '../index';
+import objId from '../libs/index';
+import {key} from '../libs/constants';
 import assert from 'assert';
 
 describe('Define object id', () => {

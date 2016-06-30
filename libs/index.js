@@ -1,7 +1,7 @@
 'use strict';
+import {key} from './constants';
 
 let index = 1;
-export const key = '_obj_id_';
 let defineId = (obj) => {
     let id = index++;
     Object.defineProperty(obj, key, {
