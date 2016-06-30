@@ -1,9 +1,12 @@
 'use strict';
 
-let index = 1;
-export const key = '_obj_id_';
-let defineId = (obj) => {
-    let id = index++;
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var index = 1;
+var key = exports.key = '_obj_id_';
+var defineId = function defineId(obj) {
+    var id = index++;
     Object.defineProperty(obj, key, {
         value: id,
         writable: false,
@@ -13,6 +16,6 @@ let defineId = (obj) => {
     return id;
 };
 
-export default (obj) => {
+exports.default = function (obj) {
     return obj[key] || defineId(obj);
 };
