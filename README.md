@@ -8,13 +8,13 @@ Generte and get id for an object.
 
 ### Install
 
-```
+```bash
 npm install obj-id
 ```
 
 ### Usage
 
-```
+```javascript
 import objId from 'obj-id';
 
 let a = {};
