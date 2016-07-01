@@ -6,9 +6,14 @@ Object.defineProperty(exports, "__esModule", {
 
 var _constants = require('./constants');
 
-var index = 1;
+var _uuid = require('uuid');
+
+var _uuid2 = _interopRequireDefault(_uuid);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 var defineId = function defineId(obj) {
-    var id = index++;
+    var id = _uuid2.default.v4();
     Object.defineProperty(obj, _constants.key, {
         value: id,
         writable: false,

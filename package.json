@@ -1,6 +1,6 @@
 {
   "name": "obj-id",
-  "version": "0.2.4",
+  "version": "0.3.0",
   "description": "Generate id for any object",
   "main": "dist/index.js",
   "scripts": {
@@ -26,5 +26,8 @@
     "babel-preset-es2015": "^6.9.0",
     "babel-register": "^6.9.0",
     "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "uuid": "^2.0.2"
   }
 }

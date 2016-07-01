@@ -21,10 +21,10 @@ let a = {};
 let b = {};
 
 
-objId(a);  #=> 1
-objId(b);  #=> 2
-objId(b);  #=> 2
-objId(a);  #=> 1
+objId(a);  #=> '52d3be1e-9161-41d6-97eb-89af1a58d1b2'
+objId(b);  #=> 'd2cbc63a-e9a2-4aa0-ad68-e45e9f6beff2'
+objId(b);  #=> 'd2cbc63a-e9a2-4aa0-ad68-e45e9f6beff2'
+objId(a);  #=> '52d3be1e-9161-41d6-97eb-89af1a58d1b2'
 ```
 
 ### Run Test

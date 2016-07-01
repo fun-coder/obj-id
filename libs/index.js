@@ -1,9 +1,9 @@
 'use strict';
 import {key} from './constants';
+import uuid from 'uuid';
 
-let index = 1;
 let defineId = (obj) => {
-    let id = index++;
+    let id = uuid.v4();
     Object.defineProperty(obj, key, {
         value: id,
         writable: false,
