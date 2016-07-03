@@ -1,6 +1,6 @@
 {
   "name": "obj-id",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Generate id for any object",
   "main": "dist/index.js",
   "scripts": {

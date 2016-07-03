@@ -14,5 +14,5 @@ let defineId = (obj) => {
 };
 
 export default (obj) => {
-    return obj[key] || defineId(obj);
+    return obj.hasOwnProperty(key) ? obj[key] : defineId(obj);
 };
