@@ -24,5 +24,5 @@ var defineId = function defineId(obj) {
 };
 
 exports.default = function (obj) {
-    return obj[_constants.key] || defineId(obj);
+    return obj.hasOwnProperty(_constants.key) ? obj[_constants.key] : defineId(obj);
 };
