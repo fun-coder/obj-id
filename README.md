@@ -3,7 +3,7 @@
 Generte and get id for an object.
 
 
-[![Build Status](https://travis-ci.org/li-qiang/obj-id.svg?branch=master)](https://travis-ci.org/li-qiang/obj-id)
+[![Build Status](https://travis-ci.org/fun-coder/obj-id.svg?branch=master)](https://travis-ci.org/fun-coder/obj-id)
 
 
 ### Install
